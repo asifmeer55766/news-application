@@ -5,6 +5,7 @@ import Home from "./Components/Home/Home";
 import Trending from "./Components/Trending/Trending";
 import SingleNews from "./Components/SingleNews/SingleNews";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 function App() {
 
   return (
@@ -22,6 +23,9 @@ function App() {
           <Route path="/trending" element={<Trending />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+
+        <Footer />
       </BrowserRouter>
 
     </>
